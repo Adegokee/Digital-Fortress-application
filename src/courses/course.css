@@ -1,0 +1,54 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.courseContainer{
+    width: 100%;
+    padding: 100px;
+   
+}
+
+.courses{
+    width: 100%;
+    
+    
+}
+.cardImges{
+    display: flex;
+
+}
+.courses h1{
+    height:49px;
+    font-weight: 600;
+    font-size: 42px;
+    line-height:48.76px;
+    text-align: center; 
+}
+.courses p{
+    height:49px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:19.5px;
+    text-align: center;
+    color: rgba(177, 13, 21, 1); 
+}
+
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cardContainer .cardImage{
+    width:405.33px;
+    margin: 10px;
+}
+
+.cardContainer .cardImage img{
+    width: 100%;
+    
+}
+
+
+ */

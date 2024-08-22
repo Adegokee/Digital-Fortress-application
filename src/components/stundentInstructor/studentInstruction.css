@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.student_instructor_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:  100px 0;
+    
+    
+}
+.student_instructor_container_video{
+/* background-image: url('../../assest/imagevideo.png'); */
+
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+object-fit: cover;
+margin-top: 30px;
+
+
+}
+
+.student_instructor_container_video img{
+    height: 100%;
+}
+.mylist .teacher{
+    border-bottom: 1px solid rgba(177,13,21,1);
+    margin-right: 20px;
+    line-height:24.38px;
+    margin-bottom:24.38px ;
+    font-size: 20px;
+}
+.mylist .student{
+    /* border-bottom: 1px solid rgba(177,13,21,1); */
+    margin-right: 20px;
+    line-height:24.38px;
+    margin-bottom:24.38px ;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1150px) {
+    .student_instructor_container{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .student_instructor_container_video{
+    /* background-image: url('../../assest/imagevideo.png'); */
+    
+    /* height: 100vh; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-top: 30px;
+    }
+    .mylist .teacher{
+        border-bottom: 1px solid rgba(177,13,21,1);
+        margin-right: 20px;
+        line-height:24.38px;
+        margin-bottom:24.38px ;
+        font-size: 20px;
+    }
+    .mylist .student{
+        /* border-bottom: 1px solid rgba(177,13,21,1); */
+        margin-right: 20px;
+        line-height:24.38px;
+        margin-bottom:24.38px ;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .student_instructor_container{
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .student_instructor_container_video{
+    /* background-image: url('../../assest/imagevideo.png'); */
+    
+    /* height: 100vh; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    margin-top: 30px;
+    }
+    .mylist .teacher{
+        border-bottom: 1px solid rgba(177,13,21,1);
+        margin-right: 20px;
+        line-height:24.38px;
+        margin-bottom:24.38px ;
+        font-size: 20px;
+    }
+    .mylist .student{
+        /* border-bottom: 1px solid rgba(177,13,21,1); */
+        margin-right: 20px;
+        line-height:24.38px;
+        margin-bottom:24.38px ;
+        font-size: 20px;
+    }
+}
