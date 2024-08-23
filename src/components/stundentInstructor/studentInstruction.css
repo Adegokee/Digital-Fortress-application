@@ -10,24 +10,32 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding:  100px 0;
+    padding:  10px 0;
+ 
     
     
 }
 .student_instructor_container_video{
-/* background-image: url('../../assest/imagevideo.png'); */
+background-image: url('../../assest/imagevideo.png');
 
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 object-fit: cover;
 margin-top: 30px;
+width: 100%;
+height: 80vh;
+padding: 30px;
+
+
 
 
 }
 
 .student_instructor_container_video img{
-    height: 100%;
+    height: 70%;
+    width: 100%;
+    
 }
 .mylist .teacher{
     border-bottom: 1px solid rgba(177,13,21,1);

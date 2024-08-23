@@ -8,8 +8,8 @@ const Partners = () => {
   return (
     <div className="w-full md:pt-[80px] h-[489px] md:mt-[30px] mt-[60px] partnersContainers bg-[rgb(255,250,250)]">
         <main className='justify-center md:flex mt-7 mb-[30px] hidden'>
-        <h1 onClick={() => setActive(!active)} className={`${active ? 'mycolor' : ''} text-[20px] md:text-[40px] leading-[48.76px] text-center`}>Partners</h1>
-        <h1 onClick={() => setActive(!active)} className={`${active ? '' : 'mycolor'} text-[20px] md:text-[40px] leading-[48.76px] text-center md:ml-[30px]`}>Clients</h1>
+        <h1 onClick={() => setActive(!active)} className={`${active ? 'mycolor' : ''} text-[20px] md:text-[40px] leading-[48.76px] text-center cursor-pointer`}>Partners</h1>
+        <h1 onClick={() => setActive(!active)} className={`${active ? '' : 'mycolor'} text-[20px] md:text-[40px] leading-[48.76px] text-center md:ml-[30px] cursor-pointer`}>Clients</h1>
         </main>
 
        <div className='flex-wrap justify-center  md:flex w-[100%] px-[33%] md:px-0'>

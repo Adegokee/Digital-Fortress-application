@@ -21,7 +21,7 @@ const Courses = () => {
        
   //  </div>
    <div key={index} className=" cardImage m-[10px] relative  overflow-hidden group">
-   <img src={x.img}  alt="myImage" class="w-full h-full object-cover transition-all duration-300 ease-in-out group-hover:opacity-120 group-hover:grayscale" />
+   <img src={x.img}  alt="myImage" class="w-[100%] h-full object-cover transition-all duration-300 ease-in-out group-hover:opacity-120 group-hover:grayscale" />
    <div className="absolute inset-0 transition-all duration-300 ease-in-out bg-gray-800 bg-opacity-0 group-hover:bg-opacity-10"></div>
  </div>
  
