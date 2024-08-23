@@ -5,7 +5,7 @@ const Courses = () => {
   return (
     <div className='courseContainer mt-[50px] md:mt-[100px]'>
         <main className="w-full courses">
-            <h1 className='text-center md:text-[42px] font-semibold'>Courses Offered</h1>
+            <h1 className='text-center md:text-[42px] font-semibold animate__animated animate__fadeInDown'>Courses Offered</h1>
             <p className='text-center font-semibold text-[16px] text-[rgba(177,13,21,1)]'>What we delivered to our Clients</p>
         </main>
 

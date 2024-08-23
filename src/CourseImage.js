@@ -58,24 +58,24 @@ export let partnersImg = [
 export let ports = [
     {   
         img:require('./assest/Maskgroup1.png'),
-        number: 260,
+        number: 900,
         name:'Grduates Annually'
     },
     {   
         img:require('./assest/Maskgroup2.png'),
-        number: parseInt('16'),
+        number: 9,
         name:'Years of Experience'
     },
     {   
         img:require('./assest/Component.png'),
-        number: 9,
+        number: 100,
         name:'Operaional Centers'
     },
 
 
     {   
         img:require('./assest/Maskgroup.png'),
-        number: 60,
+        number: 200,
         name:'Placement Partners'
     }
 ]

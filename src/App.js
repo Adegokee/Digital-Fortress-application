@@ -8,6 +8,8 @@ import Partners from './components/partners/Partners';
 import Portfolio from './components/port/Portfolio';
 import StudentInstructor from './components/stundentInstructor/StudentInstructor';
 import Courses from './courses/Courses';
+import { MyFooter } from './components/footer/MyFooter';
+import News from './components/news/News';
 
 function App() {
   return (
@@ -19,7 +21,10 @@ function App() {
       <Portfolio />
       <Partners />
       <StudentInstructor />
-    <Contact />
+      <Contact />
+      <News />
+      <MyFooter />
+
      
     </>
   );

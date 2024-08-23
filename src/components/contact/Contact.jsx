@@ -1,16 +1,18 @@
 import React from 'react'
 import { IoLocationOutline } from "react-icons/io5";
+import { MdEmail } from "react-icons/md";
+import { IoCallOutline } from "react-icons/io5";
 import './contact.css'
 const Contact = () => {
   return (
-    <div className='contactContainer mt-[70px] flex justify-center items-center'>
+    <div className='contactContainer mx-auto md:mx-0 md:mb-0 mb-[100px] p-[15px] md:p-[200px] md:mt-[70px] md:flex justify-center items-center'>
         
         
 
 
 
-<form className="max-w-md  w-[70%] mr-[130px]">
-  <div className="grid md:grid-cols-2 md:gap-6 w-full">
+<form className="  md:w-[60%] w-full md:mr-[130px] mb-[30px] ">
+  <div className="grid w-full md:grid-cols-2 md:gap-6">
     <div className="relative z-0 w-full mb-5 group">
       <input type="text" name="floating_first_name" id="floating_first_name" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
       <label htmlFor="floating_first_name" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">First name</label>
@@ -20,7 +22,7 @@ const Contact = () => {
       <label htmlFor="floating_last_name" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Last name</label>
     </div>
   </div>
-  <div className="grid md:grid-cols-2 md:gap-6 w-full">
+  <div className="grid w-full md:grid-cols-2 md:gap-6">
     <div className="relative z-0 w-full mb-5 group">
       <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone" id="floating_phone" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
       <label htmlFor="floating_phone" className="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Phone number (123-456-7890)</label>
@@ -46,7 +48,7 @@ const Contact = () => {
 </form>
 
 
-<div className='w-[30%]'>
+<div className='md:w-[30%] mx-auto md:mx-0'>
     <div className='w-[350px] text-center  flex justify-center flex-col bg-white p-[30px]'>
        <p className='mx-auto text-[40px] text-[#b10d14]'> <IoLocationOutline /></p>
         <p className='text-[20px] font-bold'>Address</p>
@@ -54,13 +56,14 @@ const Contact = () => {
     </div>
 
     <div className='w-[350px] text-center mt-[20px]  flex justify-center flex-col bg-white p-[30px]'>
-       <p className='mx-auto text-[40px] text-[#b10d14]'> <IoLocationOutline /></p>
-        <p className='text-[20px] font-bold'>Address</p>
-        <p className='leading-3 text-[11px]'>26, Shasha Road, Upper Floor, Union Bank, Dopemu, Lagos State</p>
+       <p className='mx-auto text-[40px] text-[#b10d14]'> <IoCallOutline /></p>
+        <p className='text-[20px] font-bold'>Call</p>
+        <p className='leading-3 text-[13px]'>09092349810, 0902337358, (Akowonjo Centre) <br /> <br />
+           08185949935, 08185949939 (Anthony Centre)</p>
     </div>
 
     <div className='w-[350px] mt-[20px] text-center  flex justify-center flex-col bg-white p-[30px]'>
-       <p className='mx-auto text-[40px] text-[#b10d14]'> <IoLocationOutline /></p>
+       <p className='mx-auto text-[40px] text-[#b10d14]'>  <MdEmail /></p>
         <p className='text-[20px] font-bold'>Address</p>
         <p className='leading-3 text-[11px]'>26, Shasha Road, Upper Floor, Union Bank, Dopemu, Lagos State</p>
     </div>
